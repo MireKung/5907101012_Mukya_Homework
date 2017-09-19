@@ -1,6 +1,10 @@
-package th.ac.utcc.cpe.Mukya12.BubbleTest; //MUKYA WONGDARAPHANICH 5907101012
+/**
+ ** @author Mukya_Wongdaraphanich 5907101012
+ **
+ */
+package th.ac.utcc.cpe.Mukya12.BubbleTest; 
 
-public class BubleSortHW {  //MUKYA WONGDARAPHANICH 5907101012
+public class BubleSortHW {  
 	private double [] element;
 	private int eSize;
 	
@@ -43,7 +47,7 @@ public class BubleSortHW {  //MUKYA WONGDARAPHANICH 5907101012
 		this.element[L]=temp;
 	}
 	//MAIN
-	public static void main(String[]args){  //MUKYA WONGDARAPHANICH 5907101012
+	public static void main(String[]args){  
 		//
 		int max = 20;
 		BubleSortHW bubble = new BubleSortHW(max);
