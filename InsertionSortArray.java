@@ -3,8 +3,6 @@
  **
  */
 package th.ac.utcc.cpe.Mukya12.InsertionSort;
-
-import th.ac.utcc.cpe.Mukya12.SelectionSorttest.SelectionSortArray;
  
 public class InsertionSortArray {  
 	private int [] element;
