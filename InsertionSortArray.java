@@ -6,7 +6,7 @@ package th.ac.utcc.cpe.Mukya12.InsertionSort;
 
 import th.ac.utcc.cpe.Mukya12.SelectionSorttest.SelectionSortArray;
  
-public class InsertionSortArray { //5907101012 
+public class InsertionSortArray {  
 	private int [] element;
 	private int eSize;
 	
@@ -44,7 +44,7 @@ public class InsertionSortArray { //5907101012
 		}
 	}
 
-public static void main(String[]args){ //5907101012 
+public static void main(String[]args){ 
 	int max = 20;
 	InsertionSortArray insertion = new InsertionSortArray(max);
 	
