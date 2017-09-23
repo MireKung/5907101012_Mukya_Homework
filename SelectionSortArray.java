@@ -6,7 +6,7 @@ package th.ac.utcc.cpe.Mukya12.SelectionSorttest;
 
 import th.ac.utcc.cpe.Mukya12.BubbleTest.BubleSortHW;
 
-public class SelectionSortArray { //5907101012 
+public class SelectionSortArray { 
 	private int [] element;
 	private int eSize;
 	
@@ -52,8 +52,8 @@ public class SelectionSortArray { //5907101012
 		this.element[R]=temp;
 	}
 
-public static void main(String[]args){ //5907101012 
-	//
+public static void main(String[]args){ 
+	
 	int max = 20;
 	SelectionSortArray select = new SelectionSortArray(max);
 	
