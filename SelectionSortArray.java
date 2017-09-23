@@ -4,8 +4,6 @@
  */
 package th.ac.utcc.cpe.Mukya12.SelectionSorttest;
 
-import th.ac.utcc.cpe.Mukya12.BubbleTest.BubleSortHW;
-
 public class SelectionSortArray { 
 	private int [] element;
 	private int eSize;
