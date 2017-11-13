@@ -33,7 +33,7 @@ public class genericInsertionSort <T extends Comparable<T>> {
 		System.out.println(" ");
 	}		
 		
-		/*public void selectionSort(){
+		/*public void selectionSort(){  not finish yet
 			int out,in,min;
 			
 			
