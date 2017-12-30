@@ -1,5 +1,5 @@
 /**
- * @author Mukya_Wongdaraphanich 5907101012
+ /* @author Mukya_Wongdaraphanich 5907101012
  */
 package th.utcc.cpe.Mukya.DataStructure.genericTest;
 import java.lang.reflect.Array;
@@ -33,36 +33,27 @@ public class genericInsertionSort <T extends Comparable<T>> {
 		System.out.println(" ");
 	}		
 		
-		/*public void selectionSort(){  not finish yet
-			int out,in,min;
-			
-			
-			for(out=0 ; out<eSize-1; out++){
-				min = out;
-				for(in=out +1 ; in< eSize ; in++){
-					if(this.element[in].compareTo()==-1){
-						min=in;
-					}
-					this.swap(out,min);
-				}
-			}
-		}*/
-		
-	    private <T> void swap(T[] a, int L, int R) {
-	        if (L != R) {
-	            T temp = a[L];
-	            a[L] = a[R];
-	            a[L] = temp;
-	        }
-	    }
-	    
-	public void insertionSortHightoLow(){
+		   
+	public void insertionSortHighoLow(){
 		int out,in;
 		T temp;
 		
 		for(out=1 ; out<eSize; out++){
 			temp = this.element[out];
 			for(in = out;in>0 && this.element[in-1].compareTo(temp)==-1;in--){
+				this.element[in]=this.element[in-1];
+		}
+		this.element[in]=temp;
+		}
+	}
+	
+	public void insertionSortLowtoHigh(){
+		int out,in;
+		T temp;
+		
+		for(out=1 ; out<eSize; out++){
+			temp = this.element[out];
+			for(in = out;in>0 && temp.compareTo(this.element[in-1])==-1;in--){
 				this.element[in]=this.element[in-1];
 		}
 		this.element[in]=temp;
@@ -94,11 +85,11 @@ public static void main(String[]args){
 	test1.insert(38.0);
 	System.out.println("original Order was");
 	test1.show();
-	System.out.println("After Insertion is");
-	test1.insertionSortHightoLow();
+	System.out.println("After sroted from high to low is");
+	test1.insertionSortHighoLow();
 	test1.show();
-	
-
-	
+	System.out.println("After sroted from low to high is");
+	test1.insertionSortLowtoHigh();
+	test1.show();
 }
 }
