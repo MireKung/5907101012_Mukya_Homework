@@ -1,6 +1,6 @@
 package HomeWork;
 /**
-/* @author Mukya_Wongdaraphanich 5907101012  ¬—ß‰¡Ë‡ √Á®¥’§‘¥‰¡ËÕÕ°·≈È««
+/* @author Mukya_Wongdaraphanich 5907101012  ‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡πÄ‡∏™‡∏£‡πá‡∏à‡∏î‡∏µ ‡∏ï‡πâ‡∏≠‡∏á‡πÅ‡∏Å‡πâ‡∏ï‡∏£‡∏ádisplay
 */
 import java.util.*;
 public class CircularLink {
@@ -19,7 +19,7 @@ public class CircularLink {
 	 public int getSize(){
 	        return size;
 	    }
-	    public void insertAtStart(int val){ //Õ—ππ’È∂÷ß®–°ÍÕª¡“·µË‡¢È“„®π–
+	    public void insertAtStart(int val){ //‡∏Å‡πä‡∏≠‡∏õ‡∏°‡∏≤‡πÅ‡∏ï‡πà‡πÄ‡∏Ç‡πâ‡∏≤‡πÉ‡∏à‡∏ô‡∏∞!!
 	    	
 	        Node nptr = new Node(val,null);    
 	        nptr.setLink(start);
@@ -35,7 +35,7 @@ public class CircularLink {
 	        }
 	        size++ ;
 	    }
-	    public void deleteAtPos(int pos){    //°ÍÕª¡“§√—∫¬Õ¡√—∫·µËæÕ‡¢È“„®°“√∑”ß“ππ–
+	    public void deleteAtPos(int pos){    //‡∏ô‡∏µ‡πà‡∏Å‡πä‡∏≠‡∏õ‡∏°‡∏≤‡∏à‡∏£‡∏¥‡∏á‡∏à‡∏±‡∏á ‡πÅ‡∏ï‡πà‡πÄ‡∏Ç‡πâ‡∏≤‡πÉ‡∏à‡∏ß‡∏¥‡∏ò‡∏µ‡∏Å‡∏≤‡∏£‡∏ó‡∏≥‡∏á‡∏≤‡∏ô
 	    	
 	        if (size == 1 && pos == 1){
 	            start = null;
@@ -81,7 +81,7 @@ public class CircularLink {
 	        }
 	        size-- ;
 	    }
-	    public void display() //Õ—ππ’È°ÍÕª¡“·°Èπ‘¥ÀπËÕ¬„ÀÈ¡—π‡¢È“°—∫‚®∑¬Ï
+	    public void display() //‡∏¢‡∏±‡∏á‡πÑ‡∏°‡πà‡πÄ‡∏™‡∏£‡πá‡∏à‡∏î‡∏µ‡πÄ‡∏û‡∏£‡∏≤‡∏∞display‡∏°‡∏±‡πà‡∏ß
 	    {
 	        System.out.print("Data in this Circular Linklist is = ");
 	        Node ptr = start;
