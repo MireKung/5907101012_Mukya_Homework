@@ -1,5 +1,7 @@
 package HomeWork;
-
+/**
+ /* @author Mukya_Wongdaraphanich 5907101012
+ */
 public class MyPower {
 	public static void main(String[]args){
 		long x =2 ,y=18;
